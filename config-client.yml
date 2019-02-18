@@ -23,7 +23,7 @@ spring:
     name: config-client
 eureka:
   client:
-    service:
+    service-url:
       defaultZone: http://eureka-test.com:7001/eureka/
   
   
